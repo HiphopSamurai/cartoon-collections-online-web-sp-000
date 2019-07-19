@@ -30,13 +30,13 @@ def find_the_cheese(array)
   i = 0
   while i < array.length
     if array[i] == "cheddar"
-      puts array[i]
+      return array[i]
       break
     elsif array[i] == "gouda"
-      puts array[i]
+      return array[i]
       break
     elsif array[i] == "camembert"
-      puts array[i]
+      return array[i]
       break
     end
     i += 1
